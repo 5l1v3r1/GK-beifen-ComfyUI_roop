@@ -1,3 +1,8 @@
+#安装后，模型可能会缺失，自己要去下载模型。
+下载地址：https://github.com/SumDeusVitae/FaceSwap_v01
+
+如果遇到'NoneType' object has no attribute 'get'错误，请下载inswapper_128.onnx模型并将其放入<webui_dir>/models/roop/目录中。
+
 # roop nodes for ComfyUI
 
 [ComfyUI](https://github.com/comfyanonymous/ComfyUI) nodes for the [roop A1111 webui script](https://github.com/s0md3v/sd-webui-roop).
