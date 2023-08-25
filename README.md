@@ -1,7 +1,15 @@
 #安装后，模型可能会缺失，自己要去下载模型。
 下载地址：https://github.com/SumDeusVitae/FaceSwap_v01
 
-如果遇到'NoneType' object has no attribute 'get'错误，请下载inswapper_128.onnx模型并将其放入<webui_dir>/models/roop/目录中。
+如果遇到'NoneType' object has no attribute 'get'错误，请下载inswapper_128.onnx模型并将其放入/ComfyUI/custom_nodes/ComfyUI_roop/models/roop目录中。
+
+安装方法：
+git clone https://github.com/GeLi1989/GK-beifen-ComfyUI_roop
+
+然后运行：
+install.py
+
+
 
 # roop nodes for ComfyUI
 
@@ -11,7 +19,7 @@
 You must have the Visual Studio C++ Build Tools installed. Check the original description for details.
 1. Enter the following command from the commandline starting in ComfyUI/custom_nodes/
 ```
-git clone https://github.com/ssitu/ComfyUI_roop
+git clone https://github.com/GeLi1989/GK-beifen-ComfyUI_roop
 ```
 2. If you are using the portable Windows version of ComfyUI, you can run `install.bat` to install requirements.
 
