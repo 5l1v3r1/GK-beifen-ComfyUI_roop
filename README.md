@@ -1,13 +1,15 @@
+#安装方法：
+git clone https://github.com/GeLi1989/GK-beifen-ComfyUI_roop
+
+然后运行：
+install.py
+
+
 #安装后，模型可能会缺失，自己要去下载模型。
 下载地址：https://github.com/SumDeusVitae/FaceSwap_v01
 
 如果遇到'NoneType' object has no attribute 'get'错误，请下载inswapper_128.onnx模型并将其放入/ComfyUI/custom_nodes/ComfyUI_roop/models/roop目录中。
 
-安装方法：
-git clone https://github.com/GeLi1989/GK-beifen-ComfyUI_roop
-
-然后运行：
-install.py
 
 
 
